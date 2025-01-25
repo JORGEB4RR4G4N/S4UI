@@ -1,0 +1,14 @@
+﻿<Carousel @bind-SelectedSlide="@selectedSlide">
+    <CarouselSlide Name="1">
+        <Image Source="background.png" Text="Lights image" Display="Display.Block" Width="Width.Is100" />
+    </CarouselSlide>
+    <CarouselSlide Name="2">
+        <Image Source="icon-192.png" Text="Keyboard image" Display="Display.Block" Width="Width.Is100" />
+    </CarouselSlide>
+    <CarouselSlide Name="3">
+        <Image Source="http://www.officialpsds.com/images/thumbs/Spiderman-Logo-psd59240.png" Text="Road image" Display="Display.Block" Width="Width.Is100" />
+    </CarouselSlide>
+</Carousel>
+@code {
+    private string selectedSlide = "2";
+}
